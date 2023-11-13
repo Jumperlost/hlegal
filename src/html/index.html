@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container-body">
+      <section class="section__header-logo">
+        @@include('blocks/index/index_header.html')
+        @@include('blocks/index/popup.html')
+        @@include('blocks/index/logo_main.html')
+      </section>
+      <section class="tabs-main">
+        @@include('blocks/index/tabs.html')
+        @@include('blocks/index/services.html')
+      </section>
+    </div>
+    <section class="info-main">@@include('blocks/index/slider.html')</section>
+    @@include('blocks/index/company.html')
+    @@include('blocks/publication/recomm.html')
+    @@include('blocks/index/footer.html')
+    <script>
+      document.body.classList.add("popup-open");
+      document.body.classList.remove("popup-open");
+      ///BURGER working
+      const menu = document.querySelector(".header__nav-menu");
+      const menuItems = document.querySelectorAll(".menuItem");
+      const hamburger = document.querySelector(".hamburger");
+      const closeIcon = document.querySelector(".closeIcon");
+      const menuIcon = document.querySelector(".menuIcon");
+
+      function toggleMenu() {
+        if (menu.classList.contains("showMenu")) {
+          menu.classList.remove("showMenu");
+          closeIcon.style.display = "none";
+          menuIcon.style.display = "block";
+        } else {
+          menu.classList.add("showMenu");
+          closeIcon.style.display = "block";
+          menuIcon.style.display = "none";
+        }
+      }
+
+      hamburger.addEventListener("click", toggleMenu);
+
+      menuItems.forEach(function (menuItem) {
+        menuItem.addEventListener("click", toggleMenu);
+      });
+      // -------->>>>>>>
+    </script>
+  </body>
+</html>

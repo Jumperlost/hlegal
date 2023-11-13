@@ -1,0 +1,75 @@
+@media (min-width: 375px) and (max-width: 768px) {
+  .wrapper__logo {
+    padding: 25%;
+    .logo__text {
+      line-height: 156%;
+      margin-bottom: 75%;
+      margin-top: 50%;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wrapper__logo {
+    padding: 5%;
+    .logo__text {
+      margin-top: 8%;
+      margin-bottom: 40%;
+    }
+  }
+}
+
+.logo__text {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .wrapper__logo {
+    padding: 5%;
+    .logo__text {
+      margin-top: 3%;
+    }
+    .logo__scroll-down {
+      margin-top: 32%;
+    }
+  }
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .wrapper__logo {
+    padding: 5%;
+    .logo__text {
+      margin-top: 8%;
+    }
+    .logo__scroll-down {
+      margin-top: 22%;
+    }
+  }
+}
+@media (min-width: 1920px) and (max-width: 2048px) {
+  .wrapper__logo {
+    padding: 5%;
+    .logo__text {
+      margin-top: 2%;
+    }
+    .logo__scroll-down {
+      margin-top: 17%;
+    }
+  }
+}
+// Global
+.wrapper__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .logo__scroll-down {
+    .link__scroll {
+      svg circle:hover,
+      svg path:hover {
+        stroke: var(--Accent);
+      }
+    }
+  }
+}

@@ -1,0 +1,203 @@
+@media (min-width: 375px) and (max-width: 767px) {
+  .header_team {
+    width: 89%;
+    margin: 0 auto;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    font-size: 1.8rem;
+  }
+  .wrapper_column {
+    margin-bottom: 18%;
+    .wrapper__item {
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 9%;
+      margin-bottom: 9%;
+      .inner__box {
+        .wrapper__arrow {
+          .arrow_right {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper_column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+    width: 89%;
+    margin: 0 auto;
+    margin-bottom: 8%;
+    .wrapper__item {
+      .wrapper__info {
+        margin-bottom: 4.4%;
+      }
+      .inner__box {
+        .wrapper__arrow {
+          .display_none {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .header_team {
+    width: 84%;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .header_team {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 2.3rem;
+  }
+  .wrapper_column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    .wrapper__item {
+      .inner__box {
+        .wrapper__arrow {
+          .display_none {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1440px) and (max-width: 2048px) {
+  .header_team {
+    width: 67%;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    margin-bottom: 3.2%;
+  }
+  .wrapper_column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+    width: 89%;
+    margin: 0 auto;
+    margin-bottom: 3.2%;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2048px) {
+  .header_team {
+    width: 67%;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    margin-bottom: 3.2%;
+  }
+  .wrapper_column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+    width: 89%;
+    margin: 0 auto;
+    margin-bottom: 3.2%;
+  }
+}
+// GLOBAL
+.header_team {
+  font-weight: 700;
+  background: var(--gradient-red-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper_column {
+  .wrapper__item {
+    .wrapper__info-Alex {
+      .block-capture {
+        background-image: url(./img/team/oleks.png);
+      }
+    }
+    .wrapper__info-Evgen {
+      .block-capture {
+        background-image: url(./img/team/Evgen.png);
+      }
+    }
+    .wrapper__info-Vlad {
+      .block-capture {
+        background-image: url(./img/team/vladik.png);
+      }
+    }
+    .wrapper__info-Serge {
+      .block-capture {
+        background-image: url(./img/team/serge.png);
+      }
+    }
+    .wrapper__info-Oksana {
+      .block-capture {
+        background-image: url(./img/team/oksana.png);
+      }
+    }
+    .wrapper__info-Julia {
+      .block-capture {
+        background-image: url(./img/team/ylia.png);
+      }
+    }
+  }
+}
+.wrapper_column {
+  .wrapper__item {
+    .inner__box {
+      display: flex;
+      justify-content: space-between;
+      .wrapper__arrow {
+        svg:hover path {
+          stroke: var(--Accent);
+        }
+      }
+
+      .item__box {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .inner__box {
+      .item__box {
+        .wrapper__item-title {
+          color: var(--main-regular);
+          font-size: 1rem;
+          font-weight: 700;
+        }
+        .wrapper__item-text {
+          color: var(--grey-text);
+          font-size: 0.8rem;
+          line-height: 22px;
+        }
+      }
+    }
+    .wrapper__info {
+      .block-capture {
+        border-radius: 12px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        padding: 50%;
+        margin-bottom: 3%;
+      }
+    }
+  }
+}

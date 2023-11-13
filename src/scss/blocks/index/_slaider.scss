@@ -1,0 +1,176 @@
+.info-main {
+  margin-top: 4.2%;
+}
+.container-slider {
+  display: flex;
+  // overflow: hidden;
+  width: 92%;
+  margin: 0 auto;
+  border-radius: 12px;
+  background: var(--grey-separator);
+  .container-slider__inner {
+    display: flex;
+    flex-direction: column;
+
+    .container-slider__link {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.container-slider__text {
+  color: var(--active-regular);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 4px;
+  a:hover {
+    color: var(--Accent);
+  }
+  svg path:hover {
+    stroke: var(--Accent);
+  }
+}
+
+.container-slider__box {
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+}
+.capture__team {
+  background: url(./img/team/oleks.png);
+  border-radius: 12px 12px 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 3%;
+}
+.dot-nav {
+  margin: 0 auto;
+  width: 10%;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: var(--active-regular);
+  opacity: 0.2;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  &:hover {
+    color: var(--active-regular);
+    opacity: 1;
+  }
+}
+
+.dot.active {
+  background-color: #f0145a;
+}
+
+.container-slider__text-slogan {
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 90%;
+  margin-bottom: 4.2%;
+  background: var(--gradient-red-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container-slider__text--mod {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--grey-text);
+}
+.container-slider__text--edit {
+  font-size: 0.8rem;
+  line-height: 22px;
+  color: var(--grey-text);
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .container-slider__box {
+    display: flex;
+    flex-direction: column;
+    .capture__team {
+      padding: 40%;
+      width: 100%;
+      margin-bottom: 3%;
+    }
+
+    .container-slider__inner {
+      padding: 8%;
+    }
+  }
+  .dot-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1022px) {
+  .container-slider {
+    .container-slider__box {
+      display: flex;
+      flex-direction: column;
+      .container-slider__inner {
+        padding: 4%;
+      }
+      .capture__team {
+        padding: 40%;
+        width: 100%;
+        margin-bottom: 3%;
+      }
+    }
+  }
+}
+@media (min-width: 1023px) and (max-width: 1440px) {
+  .container-slider {
+    .container-slider__box {
+      display: flex;
+      border-radius: 12px;
+      .capture__team {
+        width: 48%;
+        border-radius: 12px 0 0 12px;
+        margin: 0;
+      }
+      .container-slider__inner {
+        padding: 3%;
+        width: 50%;
+      }
+    }
+  }
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .container-slider {
+    .container-slider__box {
+      display: flex;
+      .capture__team {
+        width: 30%;
+        border-radius: 12px 0 0 12px;
+        margin: 0;
+      }
+      .container-slider__inner {
+        padding: 3%;
+        width: 70%;
+      }
+    }
+  }
+}
+@media (min-width: 1920px) and (max-width: 2048px) {
+  .container-slider {
+    .container-slider__box {
+      .capture__team {
+        width: 30%;
+        border-radius: 12px 0 0 12px;
+        margin: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.container-body {
+  background: linear-gradient(to bottom, #323264, #323264, #643e72);
+  -webkit-box-shadow: 0px 10px 5px -6px rgba(202, 202, 219, 1);
+  -moz-box-shadow: 0px 10px 5px -6px rgba(202, 202, 219, 1);
+  box-shadow: 0px 10px 5px -6px rgba(202, 202, 219, 1);
+}
+.section__header-logo {
+  max-width: 100%;
+  background: url(../../img/Symbol.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: inherit;
+  text-align: center;
+  align-items: end;
+}
+// .section__header-logo::after {
+//   background-image: url(../../img/Symbol.png);
+//   background-repeat: no-repeat;
+//   background-position: top center;
+//   background-attachment: inherit;
+//   text-align: center;
+//   align-items: end;
+// }
+
+.info-main {
+  background: var(--basic-white, #fff);
+}

@@ -1,0 +1,311 @@
+@media (min-width: 1920px) and (max-width: 2048px) {
+  .header-comptrust {
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 4.3%;
+    margin-bottom: 2.15%;
+  }
+  .imposter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 12px;
+    width: 89%;
+    margin: 0 auto;
+    margin-bottom: 4.3%;
+    .imposter__item-1icon {
+      background: url(./img/Hillel.png) center center no-repeat, #1c4280;
+      border-radius: 12px 0 0 0;
+      max-width: 100%;
+    }
+    .imposter__item-2icon {
+      background: url(./img/wannabiz.png) center center no-repeat, #143646;
+    }
+    .imposter__item-3icon {
+      background: url(./img/tapgerine.png) center center no-repeat,
+        linear-gradient(0deg, #f48b30 0%, #f48b30 100%);
+    }
+    .imposter__item-4icon {
+      background: url(./img/look.png) center center no-repeat, #9e4dc3;
+      border-radius: 0 12px 0 0;
+    }
+    .imposter__item-5icon {
+      background: url(./img/orange.png) center center no-repeat, #fd9339;
+    }
+    .imposter__item-6icon {
+      background: url(./img/adtelligent.png) center center no-repeat, #e2e2e4;
+    }
+    .imposter__item-7icon {
+      background: url(./img/clickky.png) center center no-repeat, #c71c36;
+    }
+    .imposter__item-8icon {
+      background: url(./img/ecolease.png) center center no-repeat, #dcf3f9;
+    }
+    .imposter__item-9icon {
+      background: url(./img/infratek.png) center center no-repeat, #eaeaea;
+      border-radius: 0 0 0 12px;
+    }
+    .imposter__item-10icon {
+      background: url(./img/citypark.png) center center no-repeat, #282240;
+    }
+    .imposter__item-11icon {
+      background: url(./img/artprint.png) center center no-repeat, #1d4568;
+    }
+    .imposter__item-12icon {
+      background: url(./img/ultimatecard.png) center center no-repeat, #000;
+      border-radius: 0 0 12px 0;
+    }
+  }
+}
+//global
+
+.header-comptrust {
+  color: var(--main-regular);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.imposter {
+  width: 100%;
+  div {
+    height: fit-content;
+    padding: 25%;
+  }
+
+  .imposter__item-1icon {
+    background: url(./img/Hillel.png) center center no-repeat, #1c4280;
+  }
+  .imposter__item-2icon {
+    background: url(./img/wannabiz.png) center center no-repeat, #143646;
+  }
+  .imposter__item-3icon {
+    background: url(./img/tapgerine.png) center center no-repeat,
+      linear-gradient(0deg, #f48b30 0%, #f48b30 100%);
+  }
+  .imposter__item-4icon {
+    background: url(./img/look.png) center center no-repeat, #9e4dc3;
+  }
+  .imposter__item-5icon {
+    background: url(./img/orange.png) center center no-repeat, #fd9339;
+  }
+  .imposter__item-6icon {
+    background: url(./img/adtelligent.png) center center no-repeat, #e2e2e4;
+  }
+  .imposter__item-7icon {
+    background: url(./img/clickky.png) center center no-repeat, #c71c36;
+  }
+  .imposter__item-8icon {
+    background: url(./img/ecolease.png) center center no-repeat, #dcf3f9;
+  }
+  .imposter__item-9icon {
+    background: url(./img/infratek.png) center center no-repeat, #eaeaea;
+  }
+  .imposter__item-10icon {
+    background: url(./img/citypark.png) center center no-repeat, #282240;
+  }
+  .imposter__item-11icon {
+    background: url(./img/artprint.png) center center no-repeat, #1d4568;
+  }
+  .imposter__item-12icon {
+    background: url(./img/ultimatecard.png) center center no-repeat, #000;
+  }
+}
+.imposter__item-7icon,
+.imposter__item-8icon,
+.imposter__item-9icon,
+.imposter__item-10icon,
+.imposter__item-11icon,
+.imposter__item-12icon {
+  display: block;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .inner_companytrust {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header-comptrust {
+      margin-top: 16%;
+      margin-bottom: 8%;
+    }
+    .imposter {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .imposter__item-7icon,
+      .imposter__item-8icon,
+      .imposter__item-9icon,
+      .imposter__item-10icon,
+      .imposter__item-11icon,
+      .imposter__item-12icon {
+        display: none;
+      }
+      .imposter__item-1icon {
+        background: url(./img/Hillel.png) center center no-repeat, #1c4280;
+        width: 100%;
+      }
+      .imposter__item-2icon {
+        background: url(./img/wannabiz.png) center center no-repeat, #143646;
+        width: 100%;
+      }
+      .imposter__item-3icon {
+        background: url(./img/tapgerine.png) center center no-repeat,
+          linear-gradient(0deg, #f48b30 0%, #f48b30 100%);
+        width: 100%;
+      }
+      .imposter__item-4icon {
+        background: url(./img/look.png) center center no-repeat, #9e4dc3;
+        width: 100%;
+      }
+      .imposter__item-5icon {
+        background: url(./img/orange.png) center center no-repeat, #fd9339;
+        width: 100%;
+      }
+      .imposter__item-6icon {
+        background: url(./img/adtelligent.png) center center no-repeat, #e2e2e4;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .inner_companytrust {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header-comptrust {
+      margin-top: 4.3%;
+      margin-bottom: 2.15%;
+    }
+    .imposter {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      width: 100%;
+      .imposter__item-1icon {
+        background: url(./img/Hillel.png) center center no-repeat, #1c4280;
+      }
+      .imposter__item-2icon {
+        background: url(./img/wannabiz.png) center center no-repeat, #143646;
+      }
+      .imposter__item-3icon {
+        background: url(./img/tapgerine.png) center center no-repeat,
+          linear-gradient(0deg, #f48b30 0%, #f48b30 100%);
+      }
+      .imposter__item-4icon {
+        background: url(./img/look.png) center center no-repeat, #9e4dc3;
+      }
+      .imposter__item-5icon {
+        background: url(./img/orange.png) center center no-repeat, #fd9339;
+      }
+      .imposter__item-6icon {
+        background: url(./img/adtelligent.png) center center no-repeat, #e2e2e4;
+      }
+      .imposter__item-7icon {
+        background: url(./img/clickky.png) center center no-repeat, #c71c36;
+      }
+      .imposter__item-8icon {
+        background: url(./img/ecolease.png) center center no-repeat, #dcf3f9;
+      }
+      .imposter__item-9icon {
+        background: url(./img/infratek.png) center center no-repeat, #eaeaea;
+      }
+      .imposter__item-10icon {
+        background: url(./img/citypark.png) center center no-repeat, #282240;
+      }
+      .imposter__item-11icon {
+        background: url(./img/artprint.png) center center no-repeat, #1d4568;
+      }
+      .imposter__item-12icon {
+        background: url(./img/ultimatecard.png) center center no-repeat, #000;
+      }
+      .imposter__item-7icon,
+      .imposter__item-8icon,
+      .imposter__item-9icon,
+      .imposter__item-10icon,
+      .imposter__item-11icon,
+      .imposter__item-12icon {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .inner_companytrust {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header-comptrust {
+      margin-top: 4.3%;
+      margin-bottom: 2.15%;
+    }
+    .imposter {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      width: 100%;
+      .imposter__item-1icon {
+        background: url(./img/Hillel.png) center center no-repeat, #1c4280;
+      }
+      .imposter__item-2icon {
+        background: url(./img/wannabiz.png) center center no-repeat, #143646;
+      }
+      .imposter__item-3icon {
+        background: url(./img/tapgerine.png) center center no-repeat,
+          linear-gradient(0deg, #f48b30 0%, #f48b30 100%);
+      }
+      .imposter__item-4icon {
+        background: url(./img/look.png) center center no-repeat, #9e4dc3;
+      }
+      .imposter__item-5icon {
+        background: url(./img/orange.png) center center no-repeat, #fd9339;
+      }
+      .imposter__item-6icon {
+        background: url(./img/adtelligent.png) center center no-repeat, #e2e2e4;
+      }
+      .imposter__item-7icon {
+        background: url(./img/clickky.png) center center no-repeat, #c71c36;
+      }
+      .imposter__item-8icon {
+        background: url(./img/ecolease.png) center center no-repeat, #dcf3f9;
+      }
+      .imposter__item-9icon {
+        background: url(./img/infratek.png) center center no-repeat, #eaeaea;
+      }
+      .imposter__item-10icon {
+        background: url(./img/citypark.png) center center no-repeat, #282240;
+      }
+      .imposter__item-11icon {
+        background: url(./img/artprint.png) center center no-repeat, #1d4568;
+      }
+      .imposter__item-12icon {
+        background: url(./img/ultimatecard.png) center center no-repeat, #000;
+      }
+    }
+  }
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .inner_companytrust {
+    margin-bottom: 3.2%;
+    .imposter {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  }
+}
+@media (min-width: 1920px) and (max-width: 2048px) {
+  .imposter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 89%;
+    height: fit-content;
+    margin: 0 auto;
+    div {
+      padding: 25%;
+    }
+  }
+}
